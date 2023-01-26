@@ -1,29 +1,29 @@
-0x03. Shell, init files, variables and expansions
-0- Create a script that creates an alias.
+# Betty
 
-1- Create a script that prints hello user, where user is the current Linux user
+[![Build Status](https://travis-ci.org/holbertonschool/Betty.svg?branch=master)](https://travis-ci.org/holbertonschool/Betty)
 
-2- Add /action to the PATH. /action should be the last directory the shell looks into when looking for a program
+### Installation
 
-3- Create a script that counts the number of directories in the PATH
+Run the script `install.sh` with **sudo privileges** to install `betty-style` and `betty-doc` on your computer, along with the  following manuals:
 
-4- Create a script that lists environment variables
+ * _betty(1)_
+ * _betty-style(1)_
+ * _betty-doc(1)_
 
-5- Create a script that lists all local variables and environment variables, and functions
+### Documentation
 
-6- Create a script that creates a new local variable.
+Please visit the [Betty Wiki](https://github.com/holbertonschool/Betty/wiki) for the full specifications of Betty coding and documentation styles.
 
-7- Create a script that creates a new global variable
+You'll also find some references and some tools for common text editors such as Emacs and Atom.
 
-8- Write a script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
+### Usage
 
-9- Write a script that prints the result of POWER divided by DIVIDE, followed by a new line.
+Run the following command to check if your code/doc fits the Betty Style (mostly inspired from the Linux Kernel style):
 
-10- Write a script that displays the result of BREATH to the power LOVE
+```ShellSession
+betty-style file1 [file2 [file3 [...]]]
+```
 
-11- Write a script that converts a number from base 2 to base 10.
-
-12- Create a script that prints all possible combinations of two letters, except oo
-
-13- Write a script that prints a number with two decimal places, followed by a new line.
-The number will be stored in the environment variable NUM
+```ShellSession
+betty-doc file1 [file2 [file3 [...]]]
+```
